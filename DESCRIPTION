@@ -1,0 +1,16 @@
+Package: shinyrunmodule
+Title: Run Shiny Modules as Standalone Apps
+Version: 0.0.0.9000
+Authors@R: as.person("Pierre Formont <pierre.formont@gmail.com> [aut, cre]")
+Description: Run a Shiny module as a standalone app for easier iteration.
+Depends: R (>= 3.2.0)
+Imports:
+    magrittr,
+    methods,
+    shiny,
+    shinydashboard
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+LazyData: true
+RoxygenNote: 6.0.1
