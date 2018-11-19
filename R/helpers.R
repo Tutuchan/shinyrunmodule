@@ -15,7 +15,7 @@ build_params <- function(x) {
 #'
 #' @param name a character, the name of the server function
 find_ui_name <- function(name) {
-  suffixes <- c("UI", "Input", "Output")
+  suffixes <- c("UI", "Input", "Output", "_ui", "_input", "_output")
   possibilities <- paste0(name, suffixes)
   existence <- lapply(possibilities, exists) %>%
     unlist()
